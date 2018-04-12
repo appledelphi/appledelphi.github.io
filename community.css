@@ -1,5 +1,8 @@
-@import url('nav.css');
 @import url('article.css');
+
+a {
+    color: purple !important;
+}
 
 .logo h2 {
 	font-size: 1em;
@@ -78,34 +81,3 @@
 	font-family: 'tbiSansSerif';
 	font-weight: bold;
 }
-
-@media screen and (min-width: 650px) {}
-
-@media screen and (min-width: 768px){
-	
-	.article-img{
-		text-align: right;
-	}
-	
-	.community .article .container {
-		align-items: flex-start;
-	}
-
-
-	.community .article-content .type,
-	.community .article-content .details {
-		font-size: 21px;
-	}
-
-	.community .btn-read {
-		height: 150px;
-		width: 150px;
-		font-size: 24px;
-	}
-
-
-}
-
-@media screen and (min-width: 1025px) {}
-
-@media screen and (max-height: 746px and min-width: 650px){}

@@ -1,51 +1,38 @@
-@import url('nav.css');
-@import url('article.css');
+.email{
+    display: block;
+	width: 66.5% !important;
+    margin-right: 5px important;
+}
 
-.landing-content {
-	width: 90%;
-	margin: auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	
-	display: grid;
-	grid-template-rows: 1fr 1fr;
-	grid-row-gap: 50px;
-	grid-template-rows: minmax(auto, auto);
-
+.contact {
+    padding: 0 50px;
 }
 
 .contact form label {
 	display: block; 
-	margin: 10px 0;
+	margin: 0px 10px 10px 10px;
 }
 
 .contact form input,
 .contact form textarea {
-	width: 100%;
+    display: block;
+	width: 70%;
+	height: 26px;
+	margin: auto;
+	margin-top: 0px;
+
+	background-color: transparent;
+	color: white !important;
+	border: none;
+	border-bottom: 1px solid white;
+	padding: 10px 0;
+	font-family: 'tbiSansSerif';
+    
 }
 
-.form-footer {
-	display:block;
-	width: 100%;
-	margin-top: 10px;
-}
-
-.form-footer .social-media {
-	display:inline-block;
-}
-
-.form-footer .social-media ul {
-	padding: 0;
-	margin: 0;
-}
-
-.form-footer .social-media li {
-	display: inline-block;
-}
-
-.form-footer .social-media img {
-	width: 30px;
-	margin-top: 10px;
+.contact form textarea {
+    margin-top: 50px;
+    height: 100px;
 }
 
 .btn{
@@ -65,45 +52,39 @@
 	float: right;
 }
 
+.donate {
+    color: white;
+}
+
+.donate-desc {
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 2;
+    width: 55%
+}
+
 .donate-amount {
+    display: inline-block;
+    width: 45%
+}
+
+.donate-buttons {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .donate-amount .btn-donate {
 	margin: 5px;
 	padding: 10px;
 	font-weight: bold;
+    width: 90%;
 
-	background: black;
-	color: white;
-	border: 1px black solid;
+	background: white;
+	color: purple;
 }
 
 .btn-paypal {
 	margin-top: 20px;
 	text-align: right;
 }
-
-
-@media screen and (min-width: 650px) {
-
-}
-
-@media screen and (min-width: 768px){
-
-	.landing-content {
-		grid-template-columns: 1fr 1fr;
-		grid-column-gap: 50px;
-	}
-
-}
-
-@media screen and (min-width: 1025px) {
-
-	.social-media {
-		padding: 0; 
-	}
-}
-
-@media screen and (max-height: 746px and min-width: 650px){}
