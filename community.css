@@ -1,22 +1,33 @@
 @import url('article.css');
 
-.divider {
-    display: flex;
-    justify-content: space-around;
+/*  */
+
+
+
+.leadership-img {
+    width: 45%;
+    padding-right: 2%;
 }
 
-.line{
-    height: 1px;
-    background-color: white;
-    width: 90%;
-    margin: 50px;
-    margin-top: 0px;
+.leadership-content {
+    width: 60%;
 }
 
-.nav-btn{
-    height: 1px;
+.leadership-content .title {
+    margin: 0;
+}
+
+.leadership-content .details {
+    font-size: 12.5px;
+    line-height: 1.5;
+}
+
+.leadership-img img {
     width: 90%;
-    margin: 50px;
+}
+
+.section {
+    margin: 40px;
 }
 
 .k {
@@ -28,9 +39,13 @@
 }
 
 .k-a .img {
-    padding-left: 10%;
+    padding-left: 15%;
     width: 250px;
-    width: 70%;
+    width: 60%;
+}
+
+.k-c .img {
+    width: 50%;
 }
 
 .k-b{
@@ -39,15 +54,17 @@
 }
 
 .k-c {
-    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
 }
 
-.top-header {
-    position: sticky;
-    padding-right: 5%;
-    padding-left: 5%;
-    top: 40px;
-    width: 90%;
+.k-d{
+    align-items: center;
 }
 
 .landing-content {
@@ -57,36 +74,44 @@
 .article .container {
     display: flex;
     justify-content:space-between;
+    padding-top: 10px !important;
 }
 
-.knowledge .article {
-    padding-left: 25px;
+.article .header {
+    display: flex;
+    justify-content:space-between;
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.section .article {
 	margin-bottom: 0;
 }
 
-.knowledge .article-content {
+.section .article-content {
 	width: 80%;
 }
 
-.knowledge .article-content .type {
+.section .article-content .type {
 	text-transform: uppercase;
 	font-style: italic;
 	font-weight: 400;
 	font-size: 18px;
 }
 
-.knowledge .article-content .details {
+.section .article-content .details {
 	margin: 20px 0;
 	font-style: normal;
 	font-size: 16px;
 	font-weight: 400;
 }
 
-.knowledge .article-content .image img {
+.section .article-content .image img {
 	width: 100%;
 }
 
-.knowledge .article-img {
+.section .article-img {
     width: 100px;
     padding-top: 55px;
     height: 100px;
@@ -98,7 +123,7 @@
     height: 100px;
 }
 
-.knowledge .btn-read {
+.section .btn-read {
 	height: 100px;
 	width: 100px;
 
@@ -124,4 +149,9 @@
 .top-footer .newsletter input::-webkit-input-placeholder{
     color: #151515 !important;
     letter-spacing: 0.5px;
+}
+
+.k-c .btn-read {
+    font-size: 15px;
+    height: 50px;
 }
