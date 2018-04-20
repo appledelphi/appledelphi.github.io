@@ -1,0 +1,51 @@
+/* Text Style */
+
+/* @font-face {
+	font-family: tbiSerif;
+	src: url(fonts/BluuNext-Bold.otf);
+} */
+
+/* @font-face {
+	font-family: tbiSerifitalic;
+	src: url(fonts/BluuNext-Bolditalic.otf);
+} */
+
+@font-face {
+	font-family: tbiSansSerif;
+	src: url(fonts/AktivGrotesk.ttf);
+}
+
+body{
+	color: #FFFFFF;
+	font-family: tbiSansSerif;
+	font-size: 16px;
+    letter-spacing: 1px;
+}
+
+i {
+    font-family: tbiSerifitalic;
+    letter-spacing: 0.5px;
+}
+
+a {
+	text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited, a:link {
+    display: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	font-family: tbiSerif;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+}

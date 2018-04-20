@@ -1,8 +1,15 @@
-.email{
-    display: block;
-	width: 66.5% !important;
-    margin-right: 5px important;
+.landing-content {
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        top: 27%;
+        bottom: 50%;
+        left: 0;
 }
+
+
+
+/* Contact */
 
 .contact {
     padding: 0 50px;
@@ -35,22 +42,32 @@
     height: 100px;
 }
 
-.btn{
+.email {
+    display: block;
+	width: 66.5% !important;
+    margin-right: 5px important;
+}
+
+.btn {
 	display: inline-block;
 	padding: 10px;
 
-    color: black;
+    color: #151515;
     background-color: transparent;
     font-weight: bold;
 
     border: none;
-    border: 1px solid black;
+    border: 1px solid #151515;
     border-radius: 3px;
 }
 
 .btn-submit {
 	float: right;
 }
+
+
+
+/* Donate */
 
 .donate {
     color: white;
@@ -81,7 +98,7 @@
     width: 90%;
 
 	background: white;
-	color: purple;
+	color: #151515;
 }
 
 .btn-paypal {
