@@ -1,51 +1,100 @@
-/* Text Style */
-
-/* @font-face {
-	font-family: tbiSerif;
-	src: url(fonts/BluuNext-Bold.otf);
-} */
-
-/* @font-face {
-	font-family: tbiSerifitalic;
-	src: url(fonts/BluuNext-Bolditalic.otf);
-} */
+@font-face {
+	font-family: tmHeader;
+	src: url(fonts/AktivGroteskBold.ttf);
+}
 
 @font-face {
-	font-family: tbiSansSerif;
+	font-family: tmSubHeader;
 	src: url(fonts/AktivGrotesk.ttf);
 }
 
+@font-face {
+	font-family: tmBody;
+	src: url(fonts/Merriweather-Light.ttf);
+}
+
+@font-face {
+	font-family: Waze;
+	src: url(fonts/proxima-nova-soft-bold.otf);
+}
+
+@font-face {
+	font-family: tmLight;
+	src: url(fonts/AktivGroteskLight.ttf);
+}
+
+@font-face {
+	font-family: tmBold;
+	src: url(fonts/Merriweather-Bold.ttf);
+}
+
+@font-face {
+	font-family: tmItalic;
+	src: url(fonts/Merriweather-LightItalic.ttf);
+}
+
+
 body{
-	color: #FFFFFF;
-	font-family: tbiSansSerif;
+	color: #ef4631;
+	font-family: tmBody;
 	font-size: 16px;
-    letter-spacing: 1px;
-}
-
-i {
-    font-family: tbiSerifitalic;
     letter-spacing: 0.5px;
-}
-
-a {
-	text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited, a:link {
-    display: inherit;
-}
-
-li {
-	list-style: none;
+    line-height: 1.5;
 }
 
 h1 {
-	font-family: tbiSerif;
-    text-transform: uppercase;
+	font-family: tmHeader;
+    font-size: 56px;
 	letter-spacing: 2px;
+    margin: 20px 0 40px 0;
+    line-height: 1.15;
+}
+
+h2 {
+	font-family: tmSubHeader;
+    font-size: 32pm;
+	letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Waze;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-family: tmLight;
+    font-size: 20px;
+	letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+h5 {
+    font-family: tmHeader;
+    font-size: 14px;
+	letter-spacing: 2px;
+    margin: 0;
+    padding-top: 5%;
+}
+
+p{
+    font-size: 80%;
+}
+
+h6{
+    margin: 0;
+    font-family: tmItalic;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 90%; /* 1 */
+  margin: 0; /* 2 */
 }

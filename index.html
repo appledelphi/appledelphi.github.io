@@ -2,233 +2,417 @@
 <html>
     
 <head>
-	<title>The Black Institute</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="normalize.css">
+	<title>Thinking Machines Data Science</title>
 	<link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-mobile.css">
     <link rel="stylesheet" href="text-style.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+    <!-- Our Platform -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script> $(document).ready(function(){
+            
+    $("#monitor-btn").click(function(){
+        $(".monitor-2").toggle();
+    });
+            
+    $("#collect-btn").click(function(){
+        $(".collect-2").toggle();
+    });
+            
+    $("#clarify-btn").click(function(){
+        $(".clarify-2").toggle();
+    });
+    
+    });</script>
 </head>
     
 <body>
     
     <!-- Index Landing -->
-	<section class="index landing"><div class="container"><div class="content">
+	<section class="landing"><div class="container"><div class="content">
         
-        <!-- Top Header -->
-        <div class="top-header"><div class="top-header-content">
+        <!-- Background -->
+        <div class="background"><div class="background-container">
             
-            <div class="logo"><img class="img" src="images/logo/Yellow Flag copy.png" alt=""/><img class="img" src="images/logo/Red Flag copy.png" alt=""/><img class="img" src="images/logo/Green Flag copy.png" alt=""/>
+            <div class="fill1"></div>
+            
+            <div><div class="content">
+                
+                <b>Launched in October 2014 with 10 city partners,</b> the program has expanded to 450 partners including city, state and country government agencies, non-profits, and first responders.
+                
+            </div></div>
+            
+            <div class="fill2"></div>
+            
+            
+            </div></div>
+        
+        <!-- Brand & Programme -->
+        <div class="index-content"><div class="title">
+            
+            <div class="brand">
+            
+            <div class="waze"><h3>Waze</h3></div>
+            <div class="tm-logo"><img class="img" src="images/tm%20logo.png" alt=""/></div> <div class="tm"><h2>Thinking Machines</h2></div>
+            
             </div>
             
-            <a href="index.html"><h1>THE<br> <font size="5">BLACK</font><br> INSTITUTE</h1></a>
-            
-            <nav class="desktop-nav">
-							<ul>
-								<li><a href="donate.html">Donate</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
-							</ul>
-						</nav>
-            
-            <a class="mobile-nav-toggle" href="javascript:void(0)" class="openbtn" onclick="openNav()">Menu</a><div class="mobile-nav">
-            <div class="mobile-nav-sidebar">
-								<div class="logo">
-									<img src="images/logo/Yellow Flag.png" alt=""/>
-									<img src="images/logo/Red Flag.png" alt=""/>
-									<img src="images/logo/Green Flag.png" alt=""/>
-								</div>
-							</div><div class="mobile-nav-content">
-								<div class="header">
-									<h1>T.B.I.</h1>
-									<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
-								</div>
-								
-								<div class="image-links">
-									<a href=""><div class="knowledge">Knowledge</div></a>
-									<a href="leadership.html"><div class="leadership">Leadership</div></a>
-									<a href="community.html"><div class="community">Community</div></a>
-									<a href="about.html"><div class="about">About Our Organization</div></a>
-								</div>
+            <div class="tm-desc">
+            <h1>Connected Citizens Program</h1>
+            Empowering municipal decisions to achieve concrete community impact.
+            </div><br><br>
 
-								<div class="footer">
-									<div class="links">
-										<div class="circle">Donate</div>
-										<div class="circle">Contact Us</div>
-									</div>
-									<div class="info">
-										39 Broadway Avenue<br />
-										17th Floor, Suite 1740<br />
-										New York, New York 10006
-									</div>
-									<div class="info">
-										Phone (212) 871-6899<br />
-										Fax (917) 591-5281<br />
-										info@theblackinstitute.com
-									</div>
-								</div>
-							</div>
-						</div>
-            
-         </div></div>
-        
-        <!-- Knowledge Section -->
-        <div class="index-content">
-            
-            <img class="img" src="images/Knowledge-After.png" alt=""/><div class="knowledge">Knowledge</div>
-            
-            <a href="knowledge.html"><div class="knowledge-spiel"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div></a>
-            
-        </div>
-        
-        <!-- Leadership Section -->
-        <div class="index-content">
-            
-            <img class="img" src="images/Leadership-After.png" alt=""/><div class="leadership">Leadership</div>
-            
-            <a href="leadership.html"><div class="leadership-spiel">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div></a>
-        
-        </div>
-        
-        <!-- Community Section -->
-        <div class="index-content">
-        
-            <img class="img" src="images/Community-Before.png" alt=""/><div class="community">Community</div>
-            
-            <a href="community.html"><div class="community-spiel">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div></a>
-        
-        </div>
-        
-        <!-- Mobile -->
-        <div class="landing-content-mobile">
-					<p>
-						<b>Join The Black Institute</b> <br />
-						in shaping the intellectual discourse and public policy in the United States from a Black perspective, <i>including all people of color in the United States and throughout the Disaspora..</i>
-					</p>
-
-				</div>
-        
-        <!-- Top Footer -->
-        <div class="top-footer"><div class="top-footer-container">
-            
-            <!-- Social Media -->
-            <div class="social-media"><ul>
-								<li><a href=""><img src="images/icons/facebook.svg" alt="FB"></a></li>
-								<li><a href=""><img src="images/icons/twitter.svg" alt="Twitter"></a></li>
-								<li><a href=""><img src="images/icons/google.svg" alt="Google+"></a></li>
-								<li><a href=""><img src="images/icons/pinterest.svg" alt="Pinterest"></a></li>
-							</ul></div>
-				
-            <!-- Newsletter -->
-            <div class="newsletter">
-                
-            <form action="" method="post" accept-charset="utf-8">
-            
-            <!-- Input -->
-            <input class="email" type="email" name="" value="" placeholder="email address">
-                
-            <!-- Email-btn -->
-            <input class="email" type="submit" name="" value="Get Involved">
-                
-            </form>
-                
-            </div>
+            <input type="button" id="action" value="Get In Touch"/>
             
         </div></div>
         
     </div></div></section>
     
-    <!-- Footer -->
+    <!-- Who We Help - A -->
+    <div class="content"><div class="section"><div class="spiel">
+            
+        <h2>Who We Help</h2>
+        <p>We help <b>public</b> and <b>private organizations</b> get maximum value off the Waze data they receive through the Connected Citizens Program (CCP)  by developing a data pipeline <b>to store and organize data</b> and a traffic dashboard <b>to show the indicators that matter most</b> to traffic planners. With the platform, clients are able to:<br></p>
+            
+    </div></div></div>
+    
+    <!-- Who We Help - B -->
+    <div class="content"><div class="section"><div class="section-platform"><div class="platform">
+            
+        <!-- Illustration -->
+        <div class="illustration">
+                
+        <div class="monitor">
+        <input type="button" id="monitor-img"/>
+        <input type="button" id="whowehelp-btn" value="Monitor performance measures"/>
+        </div>
+                
+        <div class="monitor">
+        <input type="button" id="collect-img"/>
+        <input type="button" id="whowehelp-btn" value="Collect traffic data in real-time"/>
+        </div>
+                
+        <div class="monitor">
+        <input type="button" id="clarify-img"/>
+        <input type="button" id="whowehelp-btn" value="Clarify impact of traffic schemes"/>
+        </div>
+                
+            </div>
+            
+    </div></div></div></div>
+    
+    <!-- Testimonials -->
+    <div class="testimonials"><div class="container">
+        
+        <div class="arrow-l"><img class="img" src="images/arrow-left.png" alt=""/></div>
+        
+        <div class="spiel">
+        
+        <p>“Our data collection methods used to be so antiquated before. This new traffic data platform allows us to spend less time collecting and checking data and more time analyzing our traffic interventions.”<br><br>
+        
+            —  Traffic Manager</p>
+            
+        </div>
+        
+        <div class="arrow-r"><img class="img" src="images/arrow-right.png" alt=""/></div>
+        
+        </div></div>
+    
+    <!-- Our Platform -->
+    <div class="content"><div class="section">
+
+        <!-- <h2>Our Platform</h2> -->        
+        
+        <!-- Image -->
+        <div class="section-platform"><div class="platform">
+            
+            
+        <img class="img" src="images/Thinking%20Machines-04.png" alt ="" id="ourplatform"/>
+            <br><br><br>
+            
+            <div class="000">
+                
+            <!-- <div class="our-platform">
+                    
+        <img src="images/clarify.png" width="100%" id="clarify">
+                    
+        <img src="images/collect.png" width="100%" id="collect">
+                    
+        <img src="images/monitor.png" width="100%" id="monitor">
+
+                    
+        
+                    
+            </div> -->
+        
+        <div class="two">
+            <div class="monitor-2">
+            <div class="collect-2">
+            <div class="clarify-2">
+            </div>
+            </div>
+            </div>
+        </div>
+                
+        <input type="button" id="monitor-btn" value="Monitor performance measures"/>
+                
+        <input type="button" id="collect-btn" value="Collect traffic data in real-time"/>
+                
+        <input type="button" id="clarify-btn" value="Clarify impact of traffic schemes"/>
+                
+            </div>
+            
+            <!-- <br><br>
+            <h2>Our Platform</h2> -->
+            
+        </div></div>
+
+    </div></div>
+    
+    <!-- Analytics -->
+    <div class="content"><div class="section"><div class="section-platform"><div class="analytics">
+        
+    <div class="analytics-header">
+                
+            <div class="analytics-b">
+                <h2>Prescriptive</h2>
+                <h6>traffic analytics</h6>
+            </div>
+            
+        </div>           
+        
+    <div class="analytics-desc">
+                
+            <div class="analytics-a">
+                <img class="img" src="images/Thinking%20Machines-06.png" alt ="" id="analytics"/>
+                <h5>Optimization</h5>
+                <p>What's the best route?</p>
+            </div>
+            
+            <div class="analytics-a">
+                <img class="img" src="images/Thinking%20Machines-06.png" alt ="" id="analytics"/>
+                <h5>Random Testing</h5>
+                <p>What if we try this traffic scheme?</p>
+            </div>
+            
+            <div class="analytics-a">
+                <img class="img" src="images/Thinking%20Machines-06.png" alt ="" id="analytics"/>
+                <h5>Predictive Models</h5>
+                <p>What will happen next?</p>
+            </div>
+            
+            <div class="analytics-a">
+                <img class="img" src="images/Thinking%20Machines-06.png" alt ="" id="analytics"/>
+                <h5>Statistical Models</h5>
+                <p>What are the jam's causes and effects?</p>
+            </div>
+                
+        </div>  
+        
+    
+    <div class="analytics-header">
+                
+            <div class="analytics-b">
+                <h2>Descriptive</h2>
+                <h6>traffic analytics</h6>
+            </div>
+            
+        </div>           
+        
+        
+    <div class="analytics-desc">
+                
+           <!-- <div class="analytics-b">
+                <h2>Descriptive</h2>
+                <h6>traffic analytics</h6>
+            </div> -->
+            
+            <div class="analytics-a">
+                <img class="img" src="images/Thinking%20Machines-06.png" alt ="" id="alerts"/>
+                <h5>Alerts</h5>
+                <p>What actions are needed now?</p>
+            </div>
+            
+            <div class="analytics-a">
+                <img class="img" src="images/Thinking%20Machines-07.png" alt ="" id="query"/>
+                <h5>Query/Drill Down</h5>
+                <p>What exactly is the problem?</p>
+            </div>
+            
+            <div class="analytics-a">
+                <img class="img" src="images/Thinking%20Machines-08.png" alt ="" id="report"/>
+                <h5>Standard Reports</h5>
+                <p>What exactly happened?</p>
+            </div>
+                
+        </div>
+       
+    </div></div></div></div>
+    
+    <!-- Analytics
+    <div class="content"><div class="section">
+        
+        <div class="section-platform"><div class="analytics">
+            
+        <div class="analytics-desc">
+        
+        
+            <div class="analytics-desc">
+                
+                <div class="analytics-left">
+                Optimization<br>
+                Random Testing<br>
+                Predictive Models<br>
+                Statistical Models<br>
+                </div>
+            
+                <div class="analytics-right">
+                What's the best route?<br>
+                What if we try this traffic scheme?<br>
+                What will happen next?<br>
+                What are the jam's causes and effects?<br>
+                
+                </div>
+                
+            </div>
+            
+        <div class="description">
+                
+                <div class="analytics-left">
+                Optimization<br>
+                </div>
+            
+                <div class="analytics-right">
+                What's the best route?<br>
+                
+                </div>
+                
+            </div>
+            
+        <div class="description">
+                
+                <div class="analytics-left">
+                Random Testing<br>
+                </div>
+            
+                <div class="analytics-right">
+                What if we try this traffic scheme?<br>
+                
+                </div>
+                
+            </div>
+            
+        <div class="description">
+                
+                <div class="analytics-left">
+                Predictive Models<br>
+                </div>
+            
+                <div class="analytics-right">
+                What will happen next?<br>
+                </div>
+                
+            </div>
+            
+        <div class="description">
+                
+                <div class="analytics-left">
+                Statistical Models
+                </div>
+            
+                <div class="analytics-right">
+                What are the jam's causes and effects?
+                
+                </div>
+                
+            </div>
+         
+        </div>
+            
+        <div>
+        <input type="button" id="platform" value="Predictive Traffic Analytics"/>
+        <input type="button" id="platform" value="Descriptive Traffic Analytics"/>
+            </div>
+            
+        </div></div>
+
+    </div></div> -->
+    
+    <!-- Driver Happiness Index -->
+    <div class="content"><div class="section-index"><div class="index">
+            
+        <input type="button" id="driver"/>
+        
+        <h5>Driver Happiness Index</h5>
+        Describing driver mood within a traffic stream, based on service measures such as speed and travel time, freedom to maneuver, traffic interruptions, comfort and convenience. Expressed as thumbs up or thumbs down.
+            
+        <br><br><br>
+            <img class="img" src="images/arrow-red.png" alt="" id="red"/>
+        <br>
+            
+    </div></div></div>
+    
+    <!-- Case Studies -->
+    <div class="content"><div class="section">
+        
+        <div class="spiel" id="case-study">
+            
+        <h4>Improving the decision-making process</h4>
+        
+            <p>Now, governments can do better thanks to data offered by navigation platforms. When they join the Waze CCP program, they gain access to live traffic data but still need an easy way to store that data and analyze it across time and geographic dimensions.</p>
+            
+        </div>
+        
+        <div class="sample">
+        
+        <!-- <div class="case-study">
+            
+        <input type="button" id="rio"/><br>
+        <h2>Rio De Janeiro</h2>
+        identifies its most congested neighboorhoods.
+        </div>
+            -->
+            
+        <div class="case-study"><div class="vertical">
+        
+        <div><h4>Case Study</h4></div>
+        
+        <div><input type="button" id="rio"/><br>
+            
+        <h2>Rio De Janeiro</h2>
+        identifies its most congested neighboorhoods.</div>
+        
+        </div></div>
+        
+        <div class="case-study"><div class="vertical">
+        
+        <div><h4>Case Study</h4></div>
+        
+        <div><input type="button" id="boston"/><br>
+            
+        <h2>City of Boston</h2>
+        determined locations with most reports of double-parked cars.</div>
+        
+        </div></div>
+
+    </div>
+        
+        </div></div>
+    
+    <!-- Breaker -->
+    <div class="content"><div class="section">
+
+        <h2><br><br></h2>
+        
+
+    </div></div>
+    
+    <!-- Call to Action -->
     <footer><div class="footer-content">
         
-        <!-- Call-to-Action -->
-        <div class="footer-item spiel">
-            
-        <h1>Join The Black Institute</h1>
-        <i>in shaping the intellectual discourse and public policy in America from a Black perspective, including all people of color in the United States and throughout the Diaspora...</i><br>
-            
-        <div class="buttons">
-        <a href=""><div class="circle">Donate</div></a><a href=""><div class="circle">Contact Us</div></a>
-        </div>
-            
-        </div>
-            
-        <!-- Navigation -->
-        <div class="footer-item navigation">
-                
-        <div class="links">
-            <a href=""><div>About Our Organization</div></a>
-            <a href=""><div>We Were There</div></a>
-            <a href=""><div>In The Press</div></a>
-            <a href=""><div>Get Involved</div></a>
-        </div>
-                
-        <div class="footer-content">
-            
-            <div class="footer-item details">
-            39 Broadway Avenue<br>
-            17th Floor, Suite 1740<br>
-            New York, NY 10006
-            </div>
-                    
-            <div class="footer-item details">
-            Phone (212) 871-6899 <br>
-            Fax (917) 591-5281 <br>
-            info@theblackinstitute.com
-            </div>
-        
-        </div>
-
-        </div>
+        <input type="button" id="action-end" value="Get In Touch with Us"/>
 
     </div></footer>
-    
-    <!-- Acknowledgement -->
-    <footer>
-        
-		<div class="footer-content">
-            <div class="acknowledgement"></div>
-            <div class="acknowledgement"><b>Developed by the Computer Society of Ateneo.</b></div>
-        </div>
-        
-    </footer>
-        
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    
-	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    
-	<script type="text/javascript" src="slick/slick.min.js"></script>
-
-	<script type="text/javascript">
-		$(document).ready(function(){
-			// Initialize slider
-			$('.slider').slick({
-				responsive: [
-					{
-						breakpoint: 1024,
-						settings: {							infinite: true,
-							dots: true
-						}
-					},
-					{
-						breakpoint: 426,
-						settings: "unslick"	
-					}
-				]
-			});
-		});
-
-		function closeNav() {
-			$(".mobile-nav").css('margin-left','425px');
-		}
-
-		function openNav() {
-			$(".mobile-nav").css('margin-left','0px');
-		}
-	</script>
     
 </body>
 
